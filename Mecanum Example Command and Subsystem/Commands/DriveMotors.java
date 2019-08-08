@@ -40,7 +40,7 @@ public class DriveMotors extends Command {
     /*
      * Logic to judge if a trigger is pressed, if so run respective tstrafe command
      *
-     * Else set check our controller deadzone, then call our standard drive() method
+     * Else, call our standard drive() method
      */
      
     if(left_trigger > 0){
@@ -48,13 +48,10 @@ public class DriveMotors extends Command {
     }else if(right_trigger > 0){
       Robot.m_drive.strafeRight(right_trigger);
     }else{
-      if(Math.abs(left)<RobotMap.DEADZONE){
-          left = 0;
-        }else if(Math.abs(right)<RobotMap.DEADZONE){
-          right = 0;
-      }
-
       Robot.m_drive.drive();
+    }
+
+      
     }
 
 
