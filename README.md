@@ -8,6 +8,6 @@ In here you'll find:
  - Large comments, as well as a link to a document about mecanum vectors
 
 
-If this repo doesnt get the job done, contact me through our Collective Rep and I'll be in touch as soon as possible
+If this repo doesnt get the job done, contact me through the collective discord (Cody Hale - 3136) and I'll be in touch as soon as possible
 
 Hope you have a whaley good time programming!
