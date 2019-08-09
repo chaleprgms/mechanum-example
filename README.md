@@ -1,4 +1,4 @@
-# mechanum-example
+# mecanum-example
 Brief example code to show how a mecanum drive train is run using java for FRC
 
 
